@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/etc/ca.pem:system/etc/ca.pem \
     vendor/samsung/j7xelte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/j7xelte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
-	vendor/samsung/j7xelte/proprietary/etc/somxreg.conf:system/etc/somxreg.conf \
+    vendor/samsung/j7xelte/proprietary/etc/somxreg.conf:system/etc/somxreg.conf \
     vendor/samsung/j7xelte/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/j7xelte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/j7xelte/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
@@ -37,12 +37,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/j7xelte/proprietary/lib/hw/camera.vendor.universal7870.so:system/lib/hw/camera.vendor.universal7870.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-	vendor/samsung/j7xelte/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-	vendor/samsung/j7xelte/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-	vendor/samsung/j7xelte/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
-	vendor/samsung/j7xelte/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
-	vendor/samsung/j7xelte/proprietary/lib/libarac.so:system/lib/libarac.so \
-	vendor/samsung/j7xelte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
+    vendor/samsung/j7xelte/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
+    vendor/samsung/j7xelte/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/samsung/j7xelte/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
+    vendor/samsung/j7xelte/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
+    vendor/samsung/j7xelte/proprietary/lib/libarac.so:system/lib/libarac.so \
+    vendor/samsung/j7xelte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
     vendor/samsung/j7xelte/proprietary/lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
     vendor/samsung/j7xelte/proprietary/lib/libHpr_RecGAE_cvFeature_v1.0.so:system/lib/libHpr_RecGAE_cvFeature_v1.0.so \
@@ -71,7 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
     vendor/samsung/j7xelte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/j7xelte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
-	vendor/samsung/j7xelte/proprietary/lib/libsnaace.so:system/lib/libsnaace.so \
+    vendor/samsung/j7xelte/proprietary/lib/libsnaace.so:system/lib/libsnaace.so \
     vendor/samsung/j7xelte/proprietary/lib/libsnamrnb.so:system/lib/libsnamrnb.so \
     vendor/samsung/j7xelte/proprietary/lib/libsnamrwb.so:system/lib/libsnamrwb.so \
     vendor/samsung/j7xelte/proprietary/lib/libsomx263dsw.so:system/lib/libsomx263dsw.so \
@@ -96,12 +96,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
     vendor/samsung/j7xelte/proprietary/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
     vendor/samsung/j7xelte/proprietary/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
-	vendor/samsung/j7xelte/proprietary/lib/libsavsac.so:system/lib/libsavsac.so \
+    vendor/samsung/j7xelte/proprietary/lib/libsavsac.so:system/lib/libsavsac.so \
     vendor/samsung/j7xelte/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
     vendor/samsung/j7xelte/proprietary/lib/libsavsff.so:system/lib/libsavsff.so \
     vendor/samsung/j7xelte/proprietary/lib/libsavsmeta.so:system/lib/libsavsmeta.so \	
-    vendor/samsung/j7xelte/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \	
-	vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+    vendor/samsung/j7xelte/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
+    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
@@ -110,8 +110,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
-	vendor/samsung/j7xelte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
-	vendor/samsung/j7xelte/proprietary/lib/libsxqk.so:system/lib/libsxqk.so \
+    vendor/samsung/j7xelte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
+    vendor/samsung/j7xelte/proprietary/lib/libsxqk.so:system/lib/libsxqk.so \
     vendor/samsung/j7xelte/proprietary/vendor/firmware/bcm43438A1_V0056.0256.hcd:system/vendor/firmware/bcm43438A1_V0056.0256.hcd \
     vendor/samsung/j7xelte/proprietary/vendor/firmware/bcm4343A0_V0072.0270.hcd:system/vendor/firmware/bcm4343A0_V0072.0270.hcd \
     vendor/samsung/j7xelte/proprietary/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
@@ -124,9 +124,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
-	vendor/samsung/j7xelte/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
-	vendor/samsung/j7xelte/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-	vendor/samsung/j7xelte/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
+    vendor/samsung/j7xelte/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
+    vendor/samsung/j7xelte/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/samsung/j7xelte/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
