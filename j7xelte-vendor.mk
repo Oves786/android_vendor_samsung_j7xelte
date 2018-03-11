@@ -51,6 +51,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
     vendor/samsung/j7xelte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/j7xelte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
+    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
+    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
+    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
+    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/camera.vendor.universal7870.so:system/lib/hw/camera.vendor.universal7870.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/j7xelte/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
@@ -79,7 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j7xelte/proprietary/lib/libsavsac.so:system/lib/libsavsac.so \
     vendor/samsung/j7xelte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
-	vendor/samsung/j7xelte/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
+    vendor/samsung/j7xelte/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
     vendor/samsung/j7xelte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/j7xelte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
     vendor/samsung/j7xelte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
@@ -118,15 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
     vendor/samsung/j7xelte/proprietary/lib/libsavsff.so:system/lib/libsavsff.so \
     vendor/samsung/j7xelte/proprietary/lib/libsavsmeta.so:system/lib/libsavsmeta.so \	
-    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
-    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
-    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/j7xelte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
     vendor/samsung/j7xelte/proprietary/lib/libsxqk.so:system/lib/libsxqk.so \
     vendor/samsung/j7xelte/proprietary/vendor/firmware/bcm43438A1_V0056.0256.hcd:system/vendor/firmware/bcm43438A1_V0056.0256.hcd \
