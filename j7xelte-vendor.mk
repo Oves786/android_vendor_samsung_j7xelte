@@ -79,6 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j7xelte/proprietary/lib/libsavsac.so:system/lib/libsavsac.so \
     vendor/samsung/j7xelte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
+	vendor/samsung/j7xelte/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
     vendor/samsung/j7xelte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/j7xelte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
     vendor/samsung/j7xelte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
@@ -117,7 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
     vendor/samsung/j7xelte/proprietary/lib/libsavsff.so:system/lib/libsavsff.so \
     vendor/samsung/j7xelte/proprietary/lib/libsavsmeta.so:system/lib/libsavsmeta.so \	
-    vendor/samsung/j7xelte/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
