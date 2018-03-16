@@ -38,41 +38,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
     vendor/samsung/j7xelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
     vendor/samsung/j7xelte/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
-    vendor/samsung/j7xelte/proprietary/bin/gpsd:system/bin/gpsd \
-    vendor/samsung/j7xelte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
-    vendor/samsung/j7xelte/proprietary/etc/ca.pem:system/etc/ca.pem \
-    vendor/samsung/j7xelte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
-    vendor/samsung/j7xelte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
-    vendor/samsung/j7xelte/proprietary/etc/srm.bin:system/etc/srm.bin \
-    vendor/samsung/j7xelte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/j7xelte/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
-    vendor/samsung/j7xelte/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
-    vendor/samsung/j7xelte/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
-    vendor/samsung/j7xelte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/j7xelte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/j7xelte/proprietary/etc/nfc/sec_s3nrn80_rfreg.bin:system/etc/nfc/sec_s3nrn80_rfreg.bin \
-    vendor/samsung/j7xelte/proprietary/vendor/firmware/nfc/sec_s3nrn80_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn80_firmware.bin \
-    vendor/samsung/j7xelte/proprietary/vendor/firmware/bcm43438A1_V0056.0256.hcd:system/vendor/firmware/bcm43438A1_V0056.0256.hcd \
-    vendor/samsung/j7xelte/proprietary/vendor/firmware/bcm4343A0_V0072.0270.hcd:system/vendor/firmware/bcm4343A0_V0072.0270.hcd \
-    vendor/samsung/j7xelte/proprietary/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
-    vendor/samsung/j7xelte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
-    vendor/samsung/j7xelte/proprietary/vendor/firmware/setfile_3l2.bin:system/vendor/firmware/setfile_3l2.bin \
-    vendor/samsung/j7xelte/proprietary/vendor/firmware/setfile_3p3.bin:system/vendor/firmware/setfile_3p3.bin \
-    vendor/samsung/j7xelte/proprietary/vendor/firmware/setfile_5e3.bin:system/vendor/firmware/setfile_5e3.bin \
-    vendor/samsung/j7xelte/proprietary/vendor/lib/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib/libHpr_LocFace_mvfd_v1.0.so \
-    vendor/samsung/j7xelte/proprietary/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so \
-    vendor/samsung/j7xelte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/j7xelte/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
-    vendor/samsung/j7xelte/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
-    vendor/samsung/j7xelte/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
+	vendor/samsung/j7xelte/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
+	vendor/samsung/j7xelte/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
+	vendor/samsung/j7xelte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+	vendor/samsung/j7xelte/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/j7xelte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
-    vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
+	vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \ 
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:system/lib/omx/libOMX.Exynos.VP9.Decoder.so \
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.VP9.Encoder.so:system/lib/omx/libOMX.Exynos.VP9.Encoder.so \
@@ -84,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    vendor/samsung/j7xelte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/nfc_nci.universal7870.so:system/lib/hw/nfc_nci.universal7870.so \
     vendor/samsung/j7xelte/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
@@ -116,4 +93,27 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/samsung/j7xelte/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
     vendor/samsung/j7xelte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
-    vendor/samsung/j7xelte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so 
+    vendor/samsung/j7xelte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so\
+	vendor/samsung/j7xelte/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/j7xelte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
+    vendor/samsung/j7xelte/proprietary/etc/ca.pem:system/etc/ca.pem \
+    vendor/samsung/j7xelte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
+    vendor/samsung/j7xelte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
+    vendor/samsung/j7xelte/proprietary/etc/srm.bin:system/etc/srm.bin \
+    vendor/samsung/j7xelte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/j7xelte/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
+    vendor/samsung/j7xelte/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+    vendor/samsung/j7xelte/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
+    vendor/samsung/j7xelte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/j7xelte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/j7xelte/proprietary/etc/nfc/sec_s3nrn80_rfreg.bin:system/etc/nfc/sec_s3nrn80_rfreg.bin \
+    vendor/samsung/j7xelte/proprietary/vendor/firmware/nfc/sec_s3nrn80_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn80_firmware.bin \
+    vendor/samsung/j7xelte/proprietary/vendor/firmware/bcm43438A1_V0056.0256.hcd:system/vendor/firmware/bcm43438A1_V0056.0256.hcd \
+    vendor/samsung/j7xelte/proprietary/vendor/firmware/bcm4343A0_V0072.0270.hcd:system/vendor/firmware/bcm4343A0_V0072.0270.hcd \
+    vendor/samsung/j7xelte/proprietary/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
+    vendor/samsung/j7xelte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
+    vendor/samsung/j7xelte/proprietary/vendor/firmware/setfile_3l2.bin:system/vendor/firmware/setfile_3l2.bin \
+    vendor/samsung/j7xelte/proprietary/vendor/firmware/setfile_3p3.bin:system/vendor/firmware/setfile_3p3.bin \
+    vendor/samsung/j7xelte/proprietary/vendor/firmware/setfile_5e3.bin:system/vendor/firmware/setfile_5e3.bin \
+    vendor/samsung/j7xelte/proprietary/vendor/lib/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib/libHpr_LocFace_mvfd_v1.0.so \
+    vendor/samsung/j7xelte/proprietary/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so 
