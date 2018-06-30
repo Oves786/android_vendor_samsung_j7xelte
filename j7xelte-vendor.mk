@@ -227,8 +227,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib/libHpr_LocFace_mvfd_v1.0.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so \
-    vendor/samsung/j7xelte/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
-    vendor/samsung/j7xelte/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \
+    vendor/samsung/j7xelte/proprietary/vendor/lib/soundfx/libLifevibes_lvverx.so:system/vendor/lib/soundfx/libLifevibes_lvverx.so \
+    vendor/samsung/j7xelte/proprietary/vendor/lib/soundfx/libLifevibes_lvvetx.so:system/vendor/lib/soundfx/libLifevibes_lvvetx.so \
     vendor/samsung/j7xelte/proprietary/lib/libOpenCv.so:system/lib/libOpenCv.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
